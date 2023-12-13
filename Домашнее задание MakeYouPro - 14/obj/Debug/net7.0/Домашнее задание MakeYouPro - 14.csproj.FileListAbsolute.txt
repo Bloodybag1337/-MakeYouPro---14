@@ -1,0 +1,15 @@
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/bin/Debug/net7.0/Домашнее задание MakeYouPro - 14
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/bin/Debug/net7.0/Домашнее задание MakeYouPro - 14.deps.json
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/bin/Debug/net7.0/Домашнее задание MakeYouPro - 14.runtimeconfig.json
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/bin/Debug/net7.0/Домашнее задание MakeYouPro - 14.dll
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/bin/Debug/net7.0/Домашнее задание MakeYouPro - 14.pdb
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/Домашнее задание MakeYouPro - 14.csproj.AssemblyReference.cache
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/Домашнее задание MakeYouPro - 14.GeneratedMSBuildEditorConfig.editorconfig
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/Домашнее задание MakeYouPro - 14.AssemblyInfoInputs.cache
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/Домашнее задание MakeYouPro - 14.AssemblyInfo.cs
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/Домашнее задание MakeYouPro - 14.csproj.CoreCompileInputs.cache
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/Домашнее задание MakeYouPro - 14.dll
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/refint/Домашнее задание MakeYouPro - 14.dll
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/Домашнее задание MakeYouPro - 14.pdb
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/Домашнее задание MakeYouPro - 14.genruntimeconfig.cache
+/Users/artem/Projects/Домашнее задание MakeYouPro - 14/Домашнее задание MakeYouPro - 14/obj/Debug/net7.0/ref/Домашнее задание MakeYouPro - 14.dll
