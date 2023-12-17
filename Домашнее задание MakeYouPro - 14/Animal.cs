@@ -3,27 +3,27 @@ namespace HomeworkClass
 {
 	public class Animal
 	{
-		public string _name;
+		public string Name {get; set;}
         public int _age;
-		public string _species;
-		public string _climateZone;
-        public int _aerial;
-        public string _food;
+		public string Species {get; set;}
+		public string ClimateZone {get; set;}
+        public int Aerial {get; set;}
+        public string Food {get; set;}
         public string _sound;
 
 		public void Eat()
 		{
-			Console.WriteLine($"{_species} {_name} ест {_food}");
+			Console.WriteLine($"{Species} {Name} ест {Food}");
 		}
 
-        public void MakeA_sound()
+        public void MakeASound()
         {
-            Console.WriteLine($"{_species} {_name} говорит {_sound}");
+            Console.WriteLine($"{Species} {Name} говорит {_sound}");
         }
 
         public void Play()
         {
-            Console.WriteLine($"{_species} {_name} играет: уиии");
+            Console.WriteLine($"{Species} {Name} играет: уиии");
         }
     }
 }
