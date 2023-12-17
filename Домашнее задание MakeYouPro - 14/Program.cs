@@ -17,38 +17,44 @@
 
 using HomeworkClass;
 
-Animal elephant = new Animal();
-elephant._name = "Петя";
-elephant._age = 5;
-elephant._species = "Слон";
-elephant._climateZone = "Тропики";
-elephant._aerial = 10;
-elephant._food = "рыба";
-elephant._sound = "ауф";
+Animal elephant = new Animal
+{
+    Name = "Петя",
+    _age = 5,
+    Species = "Слон",
+    ClimateZone = "Тропики",
+    Aerial = 10,
+    Food = "рыба",
+    _sound = "ауф"
+};
 
-Animal penguin = new Animal();
-penguin._name = "Симба";
-penguin._age = 1;
-penguin._species = "Пингвин";
-penguin._climateZone = "Тундра";
-penguin._food = "мясо";
-penguin._sound = "хрю";
+Animal penguin = new Animal
+{
+    Name = "Симба",
+    _age = 1,
+    Species = "Пингвин",
+    ClimateZone = "Тундра",
+    Food = "мясо",
+    _sound = "хрю",
+};
 
-Animal tiger = new Animal();
-tiger._name = "Матильда";
-tiger._age = 20;
-tiger._species = "Тигр";
-tiger._climateZone = "Пустыня";
-tiger._food = "сено";
-tiger._sound = "рррр";
+Animal tiger = new Animal
+{
+    Name = "Матильда",
+    _age = 20,
+    Species = "Тигр",
+    ClimateZone = "Пустыня",
+    Food = "сено",
+    _sound = "рррр",
+};
 
 elephant.Eat();
 penguin.Eat();
 tiger.Eat();
 Console.WriteLine("\n");
-elephant.MakeA_sound();
-penguin.MakeA_sound();
-tiger.MakeA_sound();
+elephant.MakeASound();
+penguin.MakeASound();
+tiger.MakeASound();
 Console.WriteLine("\n");
 elephant.Play();
 penguin.Play();
