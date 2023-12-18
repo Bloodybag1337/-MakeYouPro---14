@@ -1,4 +1,4 @@
-﻿/*
+/*
 Опишите класс животного, живущего в зоопарке, на основе следующего описания:
 Животное в зоопарке описывается на основе следующих параметров:
     Общее описание животного:
@@ -15,48 +15,28 @@
         Играть
 */
 
+/*
+Внесите следующие изменения в класс животного из прошлого блока:
+-Правильно опишите все модификаторы доступа к свойствам и полям класса
+-Добавьте конструктор для создания конкретного животного
+-Измените метод еды таким образом, чтобы оно могло есть только подходящую еду
+*/
+
+using System.Xml.Linq;
 using HomeworkClass;
 
-Animal elephant = new Animal
+Animal[] animals = new Animal[]
 {
-    Name = "Петя",
-    _age = 5,
-    Species = "Слон",
-    ClimateZone = "Тропики",
-    Aerial = 10,
-    Food = "рыба",
-    _sound = "ауф"
+    new Animal ("Слон", "Петя", "рыба", "ауф"),
+    new Animal ("Пингвин", "Симба", "мясо", "хрю"),
+    new Animal ("Тигр", "Матильда", "сено", "рррр")
 };
 
-Animal penguin = new Animal
+for (int i = 0; i < animals.Length; i++)
 {
-    Name = "Симба",
-    _age = 1,
-    Species = "Пингвин",
-    ClimateZone = "Тундра",
-    Food = "мясо",
-    _sound = "хрю",
-};
-
-Animal tiger = new Animal
-{
-    Name = "Матильда",
-    _age = 20,
-    Species = "Тигр",
-    ClimateZone = "Пустыня",
-    Food = "сено",
-    _sound = "рррр",
-};
-
-elephant.Eat();
-penguin.Eat();
-tiger.Eat();
-Console.WriteLine("\n");
-elephant.MakeASound();
-penguin.MakeASound();
-tiger.MakeASound();
-Console.WriteLine("\n");
-elephant.Play();
-penguin.Play();
-tiger.Play();
+    animals[i].Eat();
+    animals[i].MakeASound();
+    animals[i].Play();
+}
+    
 Console.ReadKey();
