@@ -4,10 +4,10 @@ namespace HomeworkClass
     public class Animal
     {
         public string Name {get; set;}
-        //public int _age;
+        public int _age;
 		public string Species { get; set; }
-        //public string ClimateZone { get; set; }
-        //public int Aerial { get; set; }
+        public string ClimateZone { get; set; }
+        public int Aerial { get; set; }
         public string Food { get; private set; }
         public string _sound;
 
